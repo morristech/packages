@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 Adam Shanks (ChainsDD)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Superuser</string>
+    <string name="app_name_request">Superuser-Anfrage</string>
+
+    <string name="description_home">Home</string>
+    <string name="description_log">Protokoll</string>
+    <string name="description_preferences">Einstellungen</string>
+    <string name="description_extras">Extras</string>
+
+    <string name="page_label_info">Info</string>
+    <string name="page_label_apps">Apps</string>
+    <string name="page_label_log">Protokoll</string>
+
+    <string name="menu_extras">Extras</string>
+    <string name="menu_get_elite">Superuser Elite kaufen</string>
+    <string name="menu_preferences">Einstellungen</string>
+    <string name="menu_clear">Löschen</string>
+    <string name="menu_clear_log">Protokoll löschen</string>
+    <string name="menu_toggle">Umschalten</string>
+    <string name="menu_forget">Vergessen</string>
+    <string name="menu_options">Optionen</string>
+
+    <string name="permgrouplab_superuser">Berechtigungen</string>
+    <string name="permgroupdesc_superuser">Auf Superuser bezogene Berechtigungen</string>
+    <string name="permlab_respond">Auf Superuser-Anfragen reagieren</string>
+    <string name="permdesc_respond">Erlaubt einer Anwendung, auf Anfragen für den Superuser-Zugriff zu reagieren</string>
+    <string name="permlab_provider_read">Superuser-Daten lesen</string>
+    <string name="permdesc_provider_read">Erlaubt einer Anwendung, Daten vom Superuser ContentProvider zu lesen</string>
+    <string name="permlab_provider_write">Superuser-Daten schreiben</string>
+    <string name="permdesc_provider_write">Erlaubt einer Anwendung, Daten an den Superuser ContentProvider zu schreiben</string>
+
+    <string name="recent_activity">Letzte Aktivität</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="loading">Laden\u2026</string>
+
+    <string name="allow">Erlauben</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="deny">Verweigern</string>
+    <string name="set">Speichern</string>
+    <string name="remember">Merken</string>
+    <string name="remember_disabled">Merken deaktiviert, bis \‘su\‘ aktualisiert wurde</string>
+    <string name="any">Für jede Anfrage dieser App anwenden</string>
+    <string name="request">%1$s als %2$s (uid: %3$d)</string>
+    <string name="unknown">Unbekannter Name</string>
+
+    <string name="allowed">Erlaubt</string>
+    <string name="denied">Verweigert</string>
+    <string name="created">Erstellt</string>
+    <string name="toggled">Geändert</string>
+
+    <string name="empty_apps">Keine Apps vorhanden</string>
+    <string name="empty_logs">Keine Informationen vorhanden</string>
+    <string name="log_count">%1$d Einträge werden angezeigt</string>
+    <string name="log_last_accessed">Letzter Zugriff am %1$s um %2$s</string>
+    <string name="log_last_allowed">Zuletzt erlaubt am %1$s um %2$s</string>
+    <string name="log_last_denied">Zuletzt verweigert am %1$s um %2$s</string>
+    <string name="log_last_toggled">Zuletzt geändert am %1$s um %2$s</string>
+    <string name="log_created_on">Erstellt am %1$s um %2$s</string>
+
+    <string name="detail_package">Paket</string>
+    <string name="detail_app_uid">App-UID</string>
+    <string name="detail_request">Angeforderte UID</string>
+    <string name="detail_command">Befehl</string>
+    <string name="detail_status">Status</string>
+
+    <string name="info_display_changelog">Drücken um Changelog anzuzeigen</string>
+    <string name="info_elite_installed">Superuser Elite installiert</string>
+    <string name="info_elite_not_installed">Superuser Elite nicht installiert</string>
+    <string name="info_get_elite">Superuser Elite kaufen</string>
+    <string name="info_check_updates">Drücken, um auf Updates zu prüfen</string>
+    <string name="info_outdated_binary_notification">Über veraltete \‘su\‘-Version benachrichtigen</string>
+    <string name="info_temp_unroot">Root temporär entfernen</string>
+    <string name="info_temp_unroot_unsuccessful">Root konnte temporär nicht entfernt werden</string>
+    <string name="info_ota_survival">OTA Root-Keeper</string>
+    <string name="info_ota_survival_warning">Diese Optionen sind experimentell und funktionieren nicht auf allen Geräten</string>
+    <string name="info_version_loading">Superuser-Version wird geladen\u2026</string>
+    <string name="info_version">Superuser v%1$s (%2$d)</string>
+    <string name="info_bin_version_loading">\‘su\‘-Version wird geladen\u2026</string>
+    <string name="info_bin_version">\‘su\‘ v%1$s (%2$d)</string>
+    <string name="info_bin_version_not_found">\‘su\‘ konnte nicht gefunden werden</string>
+    <string name="info_check_for_updates">Drücken, um auf Updates zu prüfen</string>
+    <string name="info_outdated_notification">Über veraltete \‘su\‘-Version benachrichtigen</string>
+    <string name="info_changelog_summary">Changelog anzeigen</string>
+    <string name="info_working">Arbeitet\u2026</string>
+
+    <string name="use_global_settings">Globale Einstellungen</string>
+    <string name="notifications_enabled">&#32;&#32;Benachrichtigungen</string>
+    <string name="logging_enabled">&#32;&#32;Protokollierung</string>
+
+    <string name="request_message">%1$s fordert Superuser-Zugriff\n\nVerweigern Sie den Zugriff, wenn Sie die Aktion nicht selbst ausgelöst haben oder Sie die Anfrage nicht verstehen.</string>
+    <string name="request_more_info">Drücken für mehr Informationen</string>
+    <string name="request_less_info">Drücken für weniger Informationen</string>
+    <string name="request_app_name">App</string>
+
+    <string name="pref_title">Einstellungen</string>
+    <string name="pref_category_security">Sicherheit</string>
+    <string name="pref_user_mode_title">Mehrbenutzer-Modus</string>
+    <string name="pref_pin_title">PIN verwenden</string>
+    <string name="pref_change_pin_title">PIN ändern</string>
+    <string name="pref_timeout_title">Zugriffs-Timeout</string>
+    <string name="pref_timeout_summary">Nicht vermerkte Apps haben Zugriff für %1$d Sekunden nach der Anfrage</string>
+    <string name="pref_timeout_unit">Sekunden</string>
+    <string name="pref_automatic_action_title">Automatische Antwort</string>
+    <string name="pref_automatic_action_summary">Bestimme wie Superuser neue Anfragen verarbeitet</string>
+    <string name="pref_ghost_mode_title">Unsichtbar-Modus</string>
+    <string name="pref_ghost_mode_message">Der Unsichtbar-Modus verbirgt Superuser im App-Drawer. Um Superuser zu starten, muss man in diesem Fall einen Geheimcode über den Ziffernblock eingeben.\n\nDer voreingestellte Geheimcode ist *#*#787378737#*#*.\n\nBeachten Sie, dass Sie den Unsichtbar-Modus nicht aktivieren sollten, wenn ihr Gerät keinen Ziffernblock besitzt.\n\Unsichtbar-Modus aktivieren?</string>
+    <string name="pref_ghost_mode_enabled_message">Unsichtbar-Modus wurde aktiviert.\nBitte den Launcher oder das Telefon neustarten.</string>
+    <string name="pref_secret_code_title">Geheimcode ändern</string>
+    <string name="pref_secret_code_summary">Aktueller Geheimcode: *#*#%1$s#*#*</string>
+    <string name="pref_advanced_prompt_title">Erweiterte Eingabeaufforderung</string>
+    <string name="pref_advanced_prompt_summary">Eingabeaufforderungs-Warnungen verbergen</string>
+    <string name="pref_category_applist_title">Apps</string>
+    <string name="pref_show_status_icons_title">Statussymbole anzeigen</string>
+    <string name="pref_status_icon_type_title">Statussymbol-Typ</string>
+    <string name="pref_status_icon_type_summary">Aussehen der Statussymbole</string>
+    <string name="pref_applist_show_log_data_title">Protokoll anzeigen</string>
+    <string name="pref_category_log_title">Protokollierung</string>
+    <string name="pref_enable_logging_title">Protokollierung aktivieren</string>
+    <string name="pref_delete_old_logs_title">Alte Protokolleinträge löschen</string>
+    <string name="pref_log_entry_limit_title">Grenzwert für Protokolleinträge</string>
+    <string name="pref_log_entry_limit_summary">%1$d Protokolleinträge</string>
+    <string name="pref_24_hour_title">24-Stunden-Format</string>
+    <string name="pref_show_seconds_title">Sekunden anzeigen</string>
+    <string name="pref_date_format_title">Datumsformat</string>
+    <string name="pref_date_format_summary">Format der Datumsdarstellung in Protokollen</string>
+    <string name="pref_clear_log_title">Protokoll löschen</string>
+    <string name="pref_clearing_log_title">Protokoll wird gelöscht\u2026</string>
+    <string name="pref_clearing_log_summary">Bitte warten\u2026</string>
+    <string name="pref_category_notification_title">Benachrichtigungen</string>
+    <string name="pref_notifications_title">Benachrichtigungen</string>
+    <string name="pref_notifications_type_title">Benachrichtigungsart</string>
+    <string name="pref_notifications_type_summary">Art der Benachrichtigung, wenn eine Anwendung \‘su\‘-Zugriff anfordert</string>
+    <string name="pref_toast_location_title">Position der Benachrichtigung</string>
+    <string name="pref_toast_location_summary">Festlegen, wo die Benachrichtigung auf dem Bildschirm angezeigt werden soll</string>
+    <string name="pref_category_nfc_title">NFC</string>
+    <string name="pref_use_allow_tag_title">Für Erlaubnis NFC-Tag scannen</string>
+    <string name="pref_write_allow_tag_title">Neue Erlaubnis schreiben</string>
+    <string name="pref_write_allow_tag_summary">Erstelle ein Etikett, das für Erlaubnis verwendet wird</string>
+    <string name="pref_category_backup_restore_title">Sichern/Wiederherstellen</string>
+    <string name="pref_backup_title">Daten sichern</string>
+    <string name="backup_complete">Daten gesichert</string>
+    <string name="pref_restore_title">Daten wiederherstellen</string>
+    <string name="pref_get_elite_summary">Superuser Elite kaufen um alle Funktionen freizuschalten</string>
+    <string name="restore_complete_prefs_only">Einstellungen wiederhergestellt</string>
+    <string name="pref_category_info_title">Allgemein</string>
+    <string name="pref_elite_only">Nur für Nutzer der Elite-Version verfügbar</string>
+
+    <string name="updater_title">\‘su\‘-Updater</string>
+    <string name="updater_new_su_found">Neue \‘su\‘-Version gefunden.\n\nJetzt aktualisieren?</string>
+    <string name="updater_current_installed">Aktuelle Version bereits installiert</string>
+    <string name="updater_update">Aktualisieren</string>
+    <string name="updater_update_anyway">Trotzdem aktualisieren</string>
+    <string name="updater_cool">Das war cool, mach es nochmal</string>
+    <string name="updater_working">Arbeitet\u2026</string>
+    <string name="updater_ok">OK</string>
+    <string name="updater_fail">Fehlgeschlagen</string>
+    <string name="updater_not_found">Nicht gefunden</string>
+    <string name="updater_update_failed">Das Update ist fehlgeschlagen.\n\nErneut versuchen?</string>
+    <string name="updater_no_conn">Fehler beim Herunterladen des Manifests.\n\nInternetverbindung überprüfen</string>
+    <string name="updater_try_again">Erneut versuchen</string>
+    <string name="updater_su_updated">su-Binary erfolgreich aktualisiert</string>
+    <string name="updater_step_download_manifest">Manifest wird heruntergeladen\u2026</string>
+    <string name="updater_step_parse_manifest">Analysiere Manifest\u2026</string>
+    <string name="updater_step_latest_version">Neueste Version =&#32;</string>
+    <string name="updater_step_check_installed_version">Überprüfe installierte Version =&#32;</string>
+    <string name="updater_step_fix_db">Datenbank wird repariert\u2026</string>
+    <string name="updater_step_unpack_sutools">Entpacke sutools\u2026</string>
+    <string name="updater_step_check_installed_path">Momentaner Installationspfad wird überprüft\u2026&#32;</string>
+    <string name="updater_step_download_su">Neue \‘su\‘-Version wird geladen\u2026</string>
+    <string name="updater_step_get_root">Erlange Root-Zugriff\u2026</string>
+    <string name="updater_step_remount_rw">/system schreibbar einbinden\u2026</string>
+    <string name="updater_step_cp">Kopiere \‘su\‘ nach /system\u2026</string>
+    <string name="updater_step_chmod">\‘su\‘-Zugriffsrechte nach 06755 ändern\u2026</string>
+    <string name="updater_step_ops_check">Sicherstellen, dass die neue \‘su\‘-Version funktioniert\u2026</string>
+    <string name="updater_step_mv">Verschiebe \‘su\‘ zu seiner endgültigen Position\u2026</string>
+    <string name="updater_step_remount_ro">/system unbeschreibbar einbinden\u2026</string>
+    <string name="updater_step_clean_up">Aufräumen\u2026</string>
+    <string name="updater_remount_ro_failed">Aktivieren des Lesezugriffs fehlgeschlagen.\nBitte Gerät neustarten, um die Aktualisierung abzuschließen.</string>
+    <string name="updater_find_su_failed">\‘su\‘ konnte nicht gefunden werden.\nAktualisierung fehlgeschlagen.</string>
+    <string name="updater_bad_install_location">\‘su\‘ ist derzeit unter /sbin installiert. Der Updater ist nicht in der Lage die \‘su\‘ zu aktualisieren.</string>
+    <string name="updater_bad_install_location_explained">Der Updater ist nicht in der Lage die \‘su\‘ zu aktualisieren, da \‘su\‘ in /sbin installiert ist. Dies ist kein Fehler im Updater, sondern des ROM- oder Kernel-Entwicklers.\n\nSuperuser kann weiterhin mit der veralteten \‘su\‘-Version verwendet werden.</string>
+    <string name="updater_failed_remount">Dieser Updater kann \‘su\‘ auf Smartphones, die einen Schreibschutz auf der Systempartition besitzen, wie z.B. S-ON, nicht aktualisieren. Superuser kann weiterhin mit der veralteten \‘su\‘-Version verwendet werden.</string>
+
+    <string name="notification_text_allow">%1$s wurden Superuser-Rechte gewährt</string>
+    <string name="notification_text_deny">%1$s wurden Superuser-Rechte verweigert</string>
+
+    <string name="notif_outdated_ticker">\‘su\‘ ist veraltet</string>
+    <string name="notif_outdated_title">\‘Veraltet</string>
+    <string name="notif_outdated_text">Drücken, um \‘su\‘ zu aktualisieren</string>
+
+    <string name="pin_enter_pin">PIN eingeben</string>
+    <string name="pin_new_pin">Neue PIN eingeben</string>
+    <string name="pin_confirm_pin">PIN bestätigen</string>
+    <string name="pin_mismatch">PINs stimmen nicht überein, versuchen Sie es erneut</string>
+    <string name="pin_enter_secret_code">Geheimcode eingeben</string>
+
+    <string name="nfc_write_tag">Zum Schreiben bitte Etikett scannen</string>
+
+    <string name="malicious_apps_title">Warnung</string>
+    <string name="malicious_apps_message2">Apps werden als schädlich eingestuft, wenn sie Elemente enthalten, die darauf hinweisen, dass sie möglicherweise ohne Ihr Einverständnis versuchen, Root-Zugriff zu erhalten. Es wird empfohlen, diese Apps Apps unverzüglich zu deinstallieren.</string>
+    <string name="malicious_apps_uninstall">Deinstallieren</string>
+    <string name="malicious_apps_ignore">Ignorieren</string>
+    <string name="malicious_app_notification_ticker">Schädliche App erkannt</string>
+    <string name="malicious_app_notification_text">%1$s ist wahrscheinlich schädlich. Zum Deinstallieren bitte drücken.</string>
+    <string name="malicious_app_uid">teilt UID mit Superuser</string>
+    <string name="malicious_app_respond">erwartet Erlaubnis für die Anfrage</string>
+    <string name="malicious_app_write">erwartet Erlaubnis, um PermissionProvider zu schreiben</string>
+
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">Neue Funktionen</string>
+
+    <string name="root_disabled_title">Root-Zugriff aktivieren?</string>
+    <string name="root_disabled_summary">Der Root-Zugriff ist momentan für alle Apps durch eine Systemeinstellung deaktiviert. Soll er aktiviert werden?</string>
+</resources>
