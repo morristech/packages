@@ -41,9 +41,9 @@
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being enabling development settings.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You have now enabled development settings!</string>
+    <string name="show_dev_on">You have enabled development settings! Now go have some fun</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">Lol stop</string>
+    <string name="show_dev_already">Stahhhhhp</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -4691,7 +4691,7 @@
     <string name="performance_settings_warning_title">Proceed with Caution</string>
     <string name="performance_settings_warning">These settings are included for experimentation and any changes made to them have the potential to cause instability, crashes, data loss or hardware failures.\n\nWe request you do not file bug reports if any of these settings have been changed from the defaults.
 
-Do not blame MBQ or Google if your phone goes boom</string>
+Please dont blame MBQ or the CM team if your phone goes boom</string>
 
     <!-- Performance Settings : Processor Settings -->
     <!-- Performance Settings : Processor settings title -->
@@ -4701,35 +4701,35 @@ Do not blame MBQ or Google if your phone goes boom</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Current CPU frequency</string>
-    <string name="cpu_governors_title">CPU governor</string>
+    <string name="cpu_governors_title">CPU Governor</string>
     <string name="cpu_governors_summary">%S</string>
     <string name="cpu_min_freq_title">Minimum CPU frequency</string>
     <string name="cpu_min_freq_summary">%s</string>
     <string name="cpu_max_freq_title">Maximum CPU frequency</string>
     <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">Set on boot</string>
-    <string name="cpu_set_on_boot_summary">Restore the processor settings on boot or reboot</string>
+    <string name="cpu_set_on_boot">Set on boot or reboot</string>
+    <string name="cpu_set_on_boot_summary">Restores the processor settings on boot</string>
 
     <!-- Performance Settings : I/O scheduler settings title -->
     <string name="io_scheds_title">I/O scheduler</string>
     <!-- Performance Settings : I/O scheduler settings summary. -->
-    <string name="io_scheds_summary">Change I/O scheduler</string>
+    <string name="io_scheds_summary">Change the I/O scheduler</string>
 
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">I/O scheduler</string>
     <string name="io_sched_summary">%S</string>
     <string name="io_sched_set_on_boot">Set on boot or reboot</string>
-    <string name="io_sched_set_on_boot_summary">Restore the I/O scheduler settings on boot</string>
+    <string name="io_sched_set_on_boot_summary">Restores the I/O scheduler settings on boot</string>
 
     <!-- Memory Management -->
     <string name="memory_management_title">Memory management</string>
-    <string name="memory_management_summary">Customize the usage of memory to alter system performance</string>
+    <string name="memory_management_summary">Customize the usage of memory to enhance system performance</string>
     <!-- zRam -->
     <string name="pref_zram_title">zRAM</string>
-    <string name="pref_zram_summary">Compress memory for increased virtual capacity and inreased phone speed (requires reboot)</string>
+    <string name="pref_zram_summary">Compress memory for increased virtual capacity and speed (requires reboot)</string>
     <!-- KSM -->
     <string name="pref_ksm_title">Kernel Samepage Merging</string>
-    <string name="pref_ksm_summary">KSM reduces physical memory requirements and vastly improves performance</string>
+    <string name="pref_ksm_summary">KSM reduces physical memory requirements and improves overall performance</string>
     <!-- Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Allow purging of assets</string>
     <string name="pref_purgeable_assets_summary">Purging of bitmap memory assets allows the freeing of more RAM when needed (requires reboot)</string>
@@ -4742,7 +4742,7 @@ Do not blame MBQ or Google if your phone goes boom</string>
 
     <!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">16bit transparency</string>
-    <string name="pref_use_16bpp_alpha_summary">Better graphic performance, but lower quality and may cause visual artifacts such as odd screen colors and screen tearing (requires reboot)</string>
+    <string name="pref_use_16bpp_alpha_summary">Better graphic performance, but lower quality and may cause visual artifacts such as screen tearing and other weird stuff (requires reboot)</string>
 
     <!-- Display : Rotation  -->
     <string name="display_rotation_title">Rotation</string>
